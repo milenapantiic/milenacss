@@ -1,0 +1,248 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+header{
+    background-color: blueviolet;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.nav ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin: 0px 12px;
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: blue;
+}
+
+.nav li:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#kontakt:hover{
+    background-color: violet;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#kontakt:hover a{
+    color: white;
+}
+
+@media (max-width: 400px) {
+    .nav ul li {
+    display: block;
+    margin-bottom: 10px;
+    }
+}
+
+.nasl{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+@keyframes FadeInEfekat {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.glavniopis h2{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.glavniopis p{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.linkovi{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.raspored{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.nav{
+    width: 100%;
+    height: 100%;
+}
+
+.nav ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin: 0px 12px;
+    padding: 10px 15px;
+    border: 1px dashed bblack;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: blue;
+}
+
+#cont:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.opis h1{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.opis h2{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.opis p{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.tabela{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.cat{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.proizvodi h1{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.proizvodi h2{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.proizvodi p{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.proizvodi img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.dogadjaji h1{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.dogadjaji h2{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.dogadjaji p{
+    text-align: center;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.podaci{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    animation: FadeInEfekat 2s ease-in-out;
+    animation-delay: 0,5s;
+}
+
+.kontakt h1{
+    text-align: center;
+}
+
+.kontakt h2{
+    text-align: center;
+}
+
+.kontakt p{
+    text-align: center;
+}
+
+.login{
+    width: 400px;
+    margin: 150px auto;
+    padding: 30px;
+}
+
+form{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
